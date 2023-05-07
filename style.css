@@ -1,0 +1,121 @@
+body,
+#cabecalho{
+    background-color: #0068bd;
+    color: #fff;
+}
+
+#cabecalho{
+    border-bottom: 1px solid #fff;
+}
+
+.icone-rockstar{
+    height: 100px;
+}
+
+.nav-link,
+.nav-link:hover{
+    color: #fff;
+}
+
+.nav-item .nav-link.active{
+    background-color:#fff;
+    color: #0068bd;
+}
+
+.navbar-toggler{
+    color: #fff;
+    background-color: #fff;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.ler-mais{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #0068bd;
+}
+
+.ler-mais:hover{
+    border: 1px solid #fff;
+    background-color: #0065e0;
+    color: #fff;
+}
+
+.card-header{
+    border-bottom: 1px solid #0068bd;
+}
+
+
+#todos-consoles .col-md-4{
+    margin: 0 10px;
+}
+
+.modal,
+.toast{
+    color: #000;
+}
+
+span{
+    color: red;
+    display: block;
+}
+
+.mensagem-error{
+    color: yellow;
+}
+
+#jogos-capa-ps5 .col-md-4,
+#jogos-capa-ps4 .col-md-4,
+#jogos-capa-ps3 .col-md-4,
+#jogos-capa-ps2 .col-md-4{
+    margin: 0 10px;
+}
+
+.social-links{
+    display: flex;
+    list-style: none;
+}
+
+.btn-form{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-form:hover{
+    background-color: #fff;
+    color: #0065e0;
+}
+
+.mensagem-error{
+    color: yellow;
+}
+
+footer{
+    border-top: 1px solid #fff;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.redes{
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    #todos-consoles img{
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    footer .container{
+        flex-direction: column;
+        text-align: center;
+    }
+}
