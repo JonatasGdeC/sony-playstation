@@ -65,7 +65,7 @@ function minificaImagensSlides(){
 exports.compilaSass = compilaSass
 exports.default = function(){
     gulp.watch('./source/*.scss', {ignoreInitial: false}, gulp.series(compilaSass))
-    gulp.watch('./source/js/main.js', {ignoreInitial: false}, gulp.series(minificaJavaScript))
+    gulp.watch('./source/js/*.js', {ignoreInitial: false}, gulp.series(minificaJavaScript))
     gulp.watch('./source/img/*', {ignoreInitial: false}, gulp.series(minificaImagens))
     gulp.watch('./source/img/consoles/*', {ignoreInitial: false}, gulp.series(minificaImagensConsoles))
     gulp.watch('./source/img/jogos/playstation2/*', {ignoreInitial: false}, gulp.series(minificaImagensJogosPlay2))
